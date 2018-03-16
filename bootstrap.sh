@@ -7,11 +7,15 @@ DEV_PACKAGES=(
     eslint
     flow-bin
     tape
-    babel-core
+    babel-eslint
+    @babel/core
+    @babel/preset-env
+    @babel/preset-flow
     rollup
     rollup-plugin-babel
     rollup-plugin-commonjs
-    rollup-plugin-json chalk
+    rollup-plugin-json
+    chalk
 )
 
 mkdir $1 || exit -1
